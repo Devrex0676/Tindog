@@ -1,0 +1,161 @@
+#title {
+  background-color: #ff4c68;
+  position: relative;
+}
+
+.container-fluid {
+  padding: 3% 15%;
+}
+
+h1 {  font-family: 'Montserrat, sans-serif';  color: #00ffbc; font-size: 3.0rem;  line-height: 1.5;  font-weight: 900;}
+
+h2 {font-family: "Montserrat, sans-serif"; font-size: 3.0rem; line-height: 1.5; font-weight: bold;}
+
+/*Navigation Bar */
+
+.navbar-brand {
+  font-family: 'Ubuntu, sans-serif'; color: white; font-size: 3rem; line-height: 1.5;}
+
+.nav-item {
+  font-family: 'Montserrat, sans-serif'; font-size: 2rem; line-height: 1; font-weight: 400;
+  padding-left: 15%;
+}
+
+
+
+/*Download Buttons */
+
+.download-button {
+  font-family: 'Montserrat, sans-serif'; font-size: 2.0rem; line-height: 1; font-weight: 900;
+  margin:15% 3% 5% 0;
+}
+
+/* Title Image */
+
+.title-image {
+  width: 15%;
+  transform: rotate(15deg);
+  margin-left: 250px;
+  position: absolute;
+}
+
+/* Features */
+
+#features {
+  text-align: center;
+  background-color: white;
+  position: relative;
+}
+
+h3 {
+  font-family: 'Montserrat, sans-serif';  color: black; font-size: 1.5rem; font-weight: 700;
+}
+
+.features-icon {
+  padding-bottom: 10px;
+  color: #c493ff;
+}
+
+.fa-check-circle:hover {
+  color: #ff4c68;
+}
+
+.fa-bullseye:hover {
+  color: #ff4c68;
+}
+
+.fa-heart:hover {
+  color: #ff4c68;
+}
+
+.features-text {
+  color: #8f8f8f;
+}
+
+/* Testimonials */
+
+#testimonials {
+  text-align: center;
+  background-color: #c493ff;
+  color: #00ffbc;
+  position: relative;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+/* Press Section */
+
+#press {
+  background-color: #fff;
+  text-align: center;
+  margin-top: 50px;
+  padding-bottom: 3%;
+  position: relative;
+}
+
+.press-images {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+/* Pricing */
+
+#pricing {
+  background-color: #ff4c68;
+  text-align: center;
+  position: relative;
+}
+
+.pricing-head {
+  background-color: #00ffbc;
+}
+
+.pricing-column {
+ padding-top: 3%;
+ padding-bottom: 3%;
+ padding-left: 2%;
+ padding-right: 2%;
+}
+
+.download-button:hover {
+  background-color: #00ffbc;
+  color: black;
+}
+
+@media (max-width: 1028px) {
+  .title-image {
+    position: static;
+    width: 45%;
+    transform: none;
+    margin-left: 0; 
+  }
+
+  #title {
+    text-align: center;
+  }
+}
+
+/* Call to Action */
+
+#cta {
+  text-align: center;
+  background-color: black;
+}
+
+h4 {
+  font-family: 'Montserrat, sans-serif';  color: #00ffbc; font-size: 1.5rem; font-weight: 700;
+  padding: 1%;
+}
+
+.cta-download-button {
+  margin-left: 2%;
+  margin-bottom: 2%;
+}
